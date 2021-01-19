@@ -1,1 +1,1 @@
-# submit_form
+ Submit Form app runs with Flask and saves data to MySQl
