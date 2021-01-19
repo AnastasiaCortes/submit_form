@@ -1,0 +1,77 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    background-color: gainsboro;
+    font-family: sans-serif;
+    color: #5b5b5b;
+    position: relative;
+}
+.container {
+    background-color: darkgray;
+    position: absolute;
+    top: 8rem;
+    left: 33%;
+    margin-top: auto;
+    margin-bottom: auto;
+	max-width: 850px;
+	overflow: auto;
+	padding: 0 2rem 2rem 2rem;
+    border-radius: .2rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    padding: 2rem 1rem;
+}
+h3{
+    display: block;
+    padding-bottom: .5rem;
+}
+.form-group{
+    padding-bottom: 2rem;
+}
+input{
+    width: 80%;
+    height: 3rem;
+    border:none;
+	background-color: white;
+	box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+	color: #777777;
+	border-radius: .3rem;
+}
+input:focus {
+    outline: none;
+    border: #5b5b5b solid .2rem;
+}
+.btn {
+	text-transform: uppercase;
+	background: maroon;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 1rem;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	margin: 2rem auto;
+}
+.message{
+    text-align: center;
+    padding: 5px;
+    background-color: maroon;
+    color: white;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+}
+.msg{
+    padding-top: 15rem;
+    margin: auto;
+    text-align: center;
+}
+.thanks{
+    color: maroon;
+}
